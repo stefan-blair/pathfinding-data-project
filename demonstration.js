@@ -299,8 +299,8 @@ $(document).ready(function(){
 			pathD = solve(false, map,2, 1, x, y);
 			if(algorithm)paint(pathA);
 			else paint(pathD);
-			$("#HUD #astarStats h1").text("AStar Distance: "+pathA[0].traveled);
-			$("#HUD #dijkstraStats h1").text("Dijkstra Distance: "+pathD[0].traveled);
+			$("#HUD #astarStats h1").text("AStar Distance: "+pathA.length);
+			$("#HUD #dijkstraStats h1").text("Dijkstra Distance: "+pathD.length);
 			console.log(pathA.length+", "+pathD.length);
 		}
 	});
