@@ -1,0 +1,116 @@
+body
+{
+	background-color: #1a1b18;
+	-webkit-user-select: none; /* Chrome/Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none;
+}
+
+#Demonstration
+{
+	background-color: #1C1C1C;
+	padding: 6px;
+	border-radius: 10px;
+}
+
+table td .void
+{
+	width: 10px;
+	height: 10px;
+	border-radius: 20%;
+	background-color: #97E5E5;
+}
+
+table td .void:hover
+{
+	background-color: yellow;
+}
+
+table td .solid
+{
+	width: 10px;
+	height: 10px;
+	border-radius: 20%;
+	background-color: black;
+}
+
+table td .solid:hover
+{
+	background-color: #993333;
+}
+
+table td .closed
+{
+	width: 10px;
+	height: 10px;
+	border-radius: 20%;
+	background-color: green;	
+}
+
+table td .closed:hover
+{
+	background-color: yellow;
+}
+
+table td .path
+{
+	width: 12px;
+	height: 12px;
+	border-radius: 18%;
+	background-color: #FF9900;	
+}
+
+#Controls td
+{
+	padding-left: 25px;
+}
+
+.control{
+	padding: 2px;
+	position: relative;
+	top: -300px;
+	left: -800px;
+	width: 90px;
+	border-radius: 10px;
+	background-color: #1C1C1C;
+	font-size: 9px;
+	text-align: center;
+	color: white;
+	font-family: sans-serif;
+}
+.control:hover{
+	background-color: gray;
+}
+#increase, #decrease{
+	padding: none;
+	height: 60px;
+	font-size: 30px;
+}
+
+#increase h1, #decrease h1
+{
+	padding: none;
+	position: relative;
+	top: -48px;
+}
+
+.hud
+{
+	width: 270px;
+	position: relative;
+	top: -360px;
+	left: 60px;
+	color: white;
+	font-family: sans-serif;
+	font-size: 12px;
+}
+
+.information
+{
+	color: white;
+	font-family: sans-serif;
+	font-size: 16px;
+	position: relative;
+	right: 1375px;
+	top: -220px;
+}
