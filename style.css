@@ -8,16 +8,20 @@ body
 
 #Demonstration
 {
-	background-color: #1C1C1C;
-	padding: 6px;
-	border-radius: 10px;
+	width: 400px;
+	height: 400px;
+	background-color: #212121;
+	padding: 2px;
+	border-radius: 6px;
+	position: relative;
+	top: -630px;
 }
 
 table td .void
 {
-	width: 10px;
-	height: 10px;
-	border-radius: 20%;
+	width: 8px;
+	height: 8px;
+	border-radius: 30%;
 	background-color: #97E5E5;
 }
 
@@ -28,9 +32,9 @@ table td .void:hover
 
 table td .solid
 {
-	width: 10px;
-	height: 10px;
-	border-radius: 20%;
+	width: 8px;
+	height: 8px;
+	border-radius: 30%;
 	background-color: black;
 }
 
@@ -41,9 +45,9 @@ table td .solid:hover
 
 table td .closed
 {
-	width: 10px;
-	height: 10px;
-	border-radius: 20%;
+	width: 8px;
+	height: 8px;
+	border-radius: 30%;
 	background-color: green;	
 }
 
@@ -54,26 +58,26 @@ table td .closed:hover
 
 table td .path
 {
-	width: 12px;
-	height: 12px;
-	border-radius: 18%;
+	width: 8px;
+	height: 8px;
+	border-radius: 28%;
 	background-color: #FF9900;	
 }
 
 #Controls td
 {
-	padding-left: 25px;
+	padding-left: 10px;
 }
 
 .control{
 	padding: 2px;
 	position: relative;
-	top: -300px;
-	left: -800px;
-	width: 90px;
+	top: -730px;
+	left: -250px;
+	width: 80px;
 	border-radius: 10px;
 	background-color: #1C1C1C;
-	font-size: 9px;
+	font-size: 8px;
 	text-align: center;
 	color: white;
 	font-family: sans-serif;
@@ -98,8 +102,8 @@ table td .path
 {
 	width: 270px;
 	position: relative;
-	top: -360px;
 	left: 60px;
+	bottom: 830px;
 	color: white;
 	font-family: sans-serif;
 	font-size: 10px;
@@ -107,10 +111,24 @@ table td .path
 
 .information
 {
+	width: 450px;
 	color: white;
 	font-family: sans-serif;
 	font-size: 16px;
 	position: relative;
-	right: 1375px;
-	top: -220px;
+	right: 720px;
+	bottom: -500px;
+}
+
+.information .allInfo
+{
+	width: 200%;
+	position: relative;
+	left: -700px;
+	top: 100px;
+}
+
+.heatMaps img
+{
+	width: 100%;
 }

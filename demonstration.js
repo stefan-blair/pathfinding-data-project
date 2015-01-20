@@ -299,8 +299,8 @@ $(document).ready(function(){
 			pathD = solve(false, map,2, 1, x, y);
 			if(algorithm)paint(pathA);
 			else paint(pathD);
-			$("#HUD #astarStats h1").text("AStar Distance: "+pathA.length);
-			$("#HUD #dijkstraStats h1").text("Dijkstra Distance: "+pathD.length);
+			$("#astarStats h1").text("AStar Distance: "+pathA.length);
+			$("#dijkstraStats h1").text("Dijkstra Distance: "+pathD.length);
 			console.log(pathA.length+", "+pathD.length);
 		}
 	});
@@ -328,13 +328,13 @@ $(document).ready(function(){
 		if(complexity < 13){
 			complexity++;
 		}
-		$("#HUD #complexity h1").text("Complexity: "+(complexity-3));
+		$("#complexity h1").text("Complexity: "+(complexity-3));
 	});
 	$("#decrease").click(function(){
 		if(complexity > 3){
 			complexity--;
 		}
-		$("#HUD #complexity h1").text("Complexity: "+(complexity-3));
+		$("#complexity h1").text("Complexity: "+(complexity-3));
 	});
 
 })
